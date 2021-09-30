@@ -1,0 +1,132 @@
+.kontejner{
+    display: flex;
+}
+
+.leviDiv{
+    display: flex;
+    flex-direction: column;
+    flex-grow:2;
+    min-width: 250px;
+    flex-basis:250px;
+    background-color: rgb(182, 136, 136);
+}
+
+.divZaCvetInv{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.desniDiv{
+    display: flex;
+    flex-direction: column;
+    flex-grow:6;
+    background-color: rgb(139, 90, 90);
+}
+
+.formDodaj{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin:10px;
+    padding:10px;
+}
+
+
+.nazivPolice,.opisPolice,.kapPolice,.nazivBuketa,.listaPolica,
+.divCbCvet,.kolZaCvetkodBuketa,.nazivCveta,.kolCveta,.cenaCveta,
+.bojaCveta,.kolCvetaInv, .cenaCvetaInv,.noviNazivPolice,.noviOpisPolice,.noviKapPolice{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+.divZaDugmicePolice{
+    display: flex;
+}
+
+.cvetDivPrikaz{
+    display: flex;
+    flex-direction: column;
+}
+
+.policaDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(236, 214, 214);
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    align-content: space-between;
+    
+}
+
+
+.policaBuketiDiv{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.dugmeZaPolicu{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.policaInfoDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.nazivPoliceInfo, .opisPoliceInfo, .divZaDugmicePolice, .divZaIzmenePolice{
+    display:inline-flex;
+    justify-content: center;
+}
+
+.divZaIzmenePolice{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.buketDiv{
+    display: flex;
+    background-color: rgb(95, 160, 120);
+    padding: 10px;
+    margin:10px;
+}
+
+.btnProdaj{
+    display: flex;
+    justify-content: center;
+}
+
+/* .kontForma{
+    display: flex;
+    flex-direction: column;
+    flex-basis:200px;
+} */
+
+/* .kontBuketi{
+    display: flex;
+    flex-grow:1;
+    flex-direction: column;
+    background-color: coral;
+} */
+
+/* .red{
+    display: flex;
+    flex-grow:1;
+} */
+
+.cvet{
+   flex:1 1 10px; 
+   margin:10px;
+   text-align:center;
+   padding:5px;
+}
